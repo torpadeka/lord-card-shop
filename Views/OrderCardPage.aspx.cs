@@ -53,6 +53,48 @@ namespace LOrd_Card_Shop.Views
             {
                 Response.Redirect("~/View/HomePage.aspx");
             }
+
+            RefreshGridView();
+        }
+
+        private void RefreshGridView()
+        {
+            Response<List<Card>> response = CardController.GetAllCards();
+
+            List<Card> cards = response.Payload;
+
+            CardsGridView.DataSource = cards;
+            CardsGridView.DataBind();
+        }
+
+        protected void CardsGridView_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if(e.CommandName == "SeeDetails")
+            {
+                GridViewRow row = CardsGridView.Rows[Convert.ToInt32(e.CommandArgument)];
+                String cardId = row.Cells[0].Text;
+
+                Response.Redirect("~/Views/CardDetailPage.aspx?Id=" + cardId);
+            }
+
+            if(e.CommandName == "AddToCart")
+            {
+                GridViewRow row = CardsGridView.Rows[Convert.ToInt32(e.CommandArgument)];
+                String cardId = row.Cells[0].Text;
+
+                Response<Cart> response = CartController.AddCardToCart(Convert.ToInt32(cardId), currentUser.UserID);
+
+                if (response.Success)
+                {
+                    MessageLabel.ForeColor = System.Drawing.Color.Green;
+                    MessageLabel.Text = "Card added to cart successfully!";
+                }
+                else
+                {
+                    MessageLabel.ForeColor = System.Drawing.Color.Red;
+                    MessageLabel.Text = "Card was not added to cart. Something went terribly wrong!";
+                }
+            }
         }
     }
 }

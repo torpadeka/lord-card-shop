@@ -13,7 +13,7 @@ namespace LOrd_Card_Shop.Handlers
 {
     public class UserHandler
     {
-        private static int GenerateUserID()
+        private static int GenerateUserId()
         {
             User user = UserRepository.GetLastUser();
 
@@ -27,7 +27,7 @@ namespace LOrd_Card_Shop.Handlers
 
         public static Response<User> RegisterUser(String userName, String userEmail, String userPassword, String userGender, DateTime userDob, String userRole)
         {
-            User user = UserFactory.Create(GenerateUserID(), userName, userEmail, userPassword, userGender, userDob, userRole);
+            User user = UserFactory.Create(GenerateUserId(), userName, userEmail, userPassword, userGender, userDob, userRole);
 
             // Make sure email and username is unique
 
@@ -102,7 +102,7 @@ namespace LOrd_Card_Shop.Handlers
 
             String decryptedCookie = Encoding.UTF8.GetString(MachineKey.Unprotect(Convert.FromBase64String(cookie)));
 
-            Int32.TryParse(decryptedCookie, out int userId);
+            int userId = Convert.ToInt32(decryptedCookie);
 
             User user = UserRepository.GetUserById(userId);
 

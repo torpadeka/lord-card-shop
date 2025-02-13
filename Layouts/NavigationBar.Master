@@ -18,14 +18,13 @@
             <asp:LinkButton OnClick="TransactionReportLinkButton_Click" ID="TransactionReportLinkButton" runat="server">Transaction Report</asp:LinkButton>
             <asp:LinkButton OnClick="LogoutLinkButton_Click" ID="LogoutLinkButton_Admin" runat="server">Logout</asp:LinkButton>
             <asp:LinkButton OnClick="OrderQueueLinkButton_Click" ID="OrderQueueLinkButton" runat="server">Order Queue</asp:LinkButton>
-                      
         </asp:Panel>
         <asp:Panel Visible="false" CssClass="navbar" ID="CustomerNavbarPanel" runat="server">
             <asp:LinkButton OnClick="HomeLinkButton_Click" ID="HomeLinkButton_Customer" runat="server">Home</asp:LinkButton>
-            <asp:LinkButton OnClick="OrderCardLinkButton_Click" ID="OrderCardLinkButton" runat="server">Manage Card</asp:LinkButton>
-            <asp:LinkButton OnClick="ProfileLinkButton_Click" ID="ProfileLinkButton" runat="server">View Transaction</asp:LinkButton>
-            <asp:LinkButton OnClick="HistoryLinkButton_Click" ID="HistoryLinkButton" runat="server">Transaction Report</asp:LinkButton>
-            <asp:LinkButton OnClick="CartLinkButton_Click" ID="CartLinkButton" runat="server">Order Queue</asp:LinkButton>
+            <asp:LinkButton OnClick="OrderCardLinkButton_Click" ID="OrderCardLinkButton" runat="server">Order Card</asp:LinkButton>
+            <asp:LinkButton OnClick="ProfileLinkButton_Click" ID="ProfileLinkButton" runat="server">Profile</asp:LinkButton>
+            <asp:LinkButton OnClick="HistoryLinkButton_Click" ID="HistoryLinkButton" runat="server">History</asp:LinkButton>
+            <asp:LinkButton OnClick="CartLinkButton_Click" ID="CartLinkButton" runat="server">Cart</asp:LinkButton>
             <asp:LinkButton OnClick="LogoutLinkButton_Click" ID="LogoutLinkButton_Customer" runat="server">Logout</asp:LinkButton>
         </asp:Panel>
         <div>

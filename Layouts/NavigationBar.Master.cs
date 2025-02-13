@@ -44,17 +44,17 @@ namespace LOrd_Card_Shop.Layouts
 
         protected void ManageCardLinkButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Views/ManageCard.aspx");
+            Response.Redirect("~/Views/ManageCardPage.aspx");
         }
 
         protected void ViewTransactionLinkButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Views/ViewTransaction.aspx");
+            Response.Redirect("~/Views/ViewTransactionPage.aspx");
         }
 
         protected void TransactionReportLinkButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Views/TransactionReport.aspx");
+            Response.Redirect("~/Views/TransactionReportPage.aspx");
         }
 
         protected void LogoutLinkButton_Click(object sender, EventArgs e)
@@ -73,27 +73,27 @@ namespace LOrd_Card_Shop.Layouts
 
         protected void OrderQueueLinkButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Views/OrderQueue.aspx");
+            Response.Redirect("~/Views/OrderQueuePage.aspx");
         }
 
         protected void OrderCardLinkButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Views/OrderCard.aspx");
+            Response.Redirect("~/Views/OrderCardPage.aspx");
         }
 
         protected void ProfileLinkButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Views/Profile.aspx");
+            Response.Redirect("~/Views/ProfilePage.aspx");
         }
 
         protected void HistoryLinkButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Views/History.aspx");
+            Response.Redirect("~/Views/HistoryPage.aspx");
         }
 
         protected void CartLinkButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Views/Cart.aspx");
+            Response.Redirect("~/Views/CartPage.aspx");
         }
     }
 }
