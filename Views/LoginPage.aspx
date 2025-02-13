@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Login Page</h1>
-    <form id="form1" runat="server">
+    <form id="form" runat="server">
         <div>
             <div>
                 <asp:Label ID="UsernameLabel" runat="server" Text="Username"></asp:Label>

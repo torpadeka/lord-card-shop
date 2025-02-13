@@ -89,8 +89,13 @@
       <DependentUpon>DatabaseModel.edmx</DependentUpon>
       <LastGenOutput>DatabaseModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Styles\HomePageStyle.css" />
+    <Content Include="Styles\NavigationBarStyle.css" />
+    <Content Include="Views\CardDetailPage.aspx" />
+    <Content Include="Views\CartPage.aspx" />
     <Content Include="Views\HomePage.aspx" />
     <Content Include="Views\LoginPage.aspx" />
+    <Content Include="Views\OrderCardPage.aspx" />
     <Content Include="Views\RegisterPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -98,6 +103,13 @@
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Factories\UserFactory.cs" />
     <Compile Include="Handlers\UserHandler.cs" />
+    <Compile Include="Layouts\NavigationBar.Master.cs">
+      <DependentUpon>NavigationBar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\NavigationBar.Master.designer.cs">
+      <DependentUpon>NavigationBar.Master</DependentUpon>
+    </Compile>
     <Compile Include="Models\Card.cs">
       <DependentUpon>DatabaseModel.tt</DependentUpon>
     </Compile>
@@ -132,6 +144,20 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\DatabaseSingleton.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Views\CardDetailPage.aspx.cs">
+      <DependentUpon>CardDetailPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\CardDetailPage.aspx.designer.cs">
+      <DependentUpon>CardDetailPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CartPage.aspx.cs">
+      <DependentUpon>CartPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\CartPage.aspx.designer.cs">
+      <DependentUpon>CartPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -145,6 +171,13 @@
     </Compile>
     <Compile Include="Views\LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OrderCardPage.aspx.cs">
+      <DependentUpon>OrderCardPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\OrderCardPage.aspx.designer.cs">
+      <DependentUpon>OrderCardPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\RegisterPage.aspx.cs">
       <DependentUpon>RegisterPage.aspx</DependentUpon>
@@ -162,6 +195,7 @@
     <Content Include="Models\DatabaseModel.edmx.diagram">
       <DependentUpon>DatabaseModel.edmx</DependentUpon>
     </Content>
+    <Content Include="Layouts\NavigationBar.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

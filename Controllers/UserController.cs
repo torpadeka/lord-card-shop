@@ -13,7 +13,7 @@ namespace LOrd_Card_Shop.Controllers
         public static Response<User> RegisterUser(String userName, String userEmail, String userPassword, String userGender, String confirmationPassword, DateTime userDob, String userRole)
         {
             String error = "";
-
+            
             if (userName.Equals("") || userEmail.Equals("") || userPassword.Equals("") || userGender.Equals("") || confirmationPassword.Equals(""))
             {
                 // userRole does not need validation, because they have default values

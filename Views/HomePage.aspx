@@ -1,12 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="LOrd_Card_Shop.Views.HomePage" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <asp:Label ID="WelcomeLabel" runat="server" Text=""></asp:Label>
-</body>
-</html>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Layouts/NavigationBar.Master" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="LOrd_Card_Shop.Views.HomePage" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="..\Styles\HomePageStyle.css" rel="stylesheet" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div id="content">
+        <h1>
+            <asp:Label ID="WelcomeLabel" runat="server" Text=""></asp:Label>
+        </h1>
+    </div>
+</asp:Content>

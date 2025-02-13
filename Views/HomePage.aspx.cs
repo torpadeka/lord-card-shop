@@ -44,7 +44,7 @@ namespace LOrd_Card_Shop.Views
                 currentUser = response.Payload;
             }
 
-            if(currentUser == null)
+            if (currentUser == null)
             {
                 currentUser = Session["user"] as User;
             }
