@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\repositories\\databasesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\hendri leong\\source\\repos\\lord-card-shop\\repositories\\databasesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:repositories\\databasesingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -229,8 +229,7 @@
               "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Models\\DatabaseModel.edmx [Diagram1]",
               "RelativeToolTip": "Models\\DatabaseModel.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-02-13T15:29:32.537Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2025-02-13T15:29:32.537Z"
             },
             {
               "$type": "Document",
@@ -242,8 +241,7 @@
               "RelativeToolTip": "Modules\\CartCardDataObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T03:13:38.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T03:13:38.597Z"
             },
             {
               "$type": "Document",
@@ -253,7 +251,7 @@
               "RelativeDocumentMoniker": "Repositories\\DatabaseSingleton.cs",
               "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Repositories\\DatabaseSingleton.cs",
               "RelativeToolTip": "Repositories\\DatabaseSingleton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T15:10:33.701Z",
               "EditorCaption": ""

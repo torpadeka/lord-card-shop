@@ -5,16 +5,16 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="08e8d35145dc4eaaac4ef2d458e9431a" Name="Diagram1">
-        <EntityTypeShape EntityType="LocalDatabaseModel.Card" Width="1.5" PointX="4" PointY="2.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="LocalDatabaseModel.Cart" Width="1.5" PointX="1.25" PointY="2.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="LocalDatabaseModel.TransactionDetail" Width="1.5" PointX="6.625" PointY="3.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="LocalDatabaseModel.TransactionHeader" Width="1.5" PointX="4" PointY="6.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="LocalDatabaseModel.User" Width="1.5" PointX="1.25" PointY="5.875" IsExpanded="true" />
-        <AssociationConnector Association="LocalDatabaseModel.FK_Carts_ToCards" ManuallyRouted="false" />
-        <AssociationConnector Association="LocalDatabaseModel.FK_TransactionDetails_ToCards" ManuallyRouted="false" ></AssociationConnector>
-        <AssociationConnector Association="LocalDatabaseModel.FK_Carts_ToUsers" ManuallyRouted="false" />
-        <AssociationConnector Association="LocalDatabaseModel.FK_TransactionDetails_ToTransactionHeaders" ManuallyRouted="false" />
-        <AssociationConnector Association="LocalDatabaseModel.FK_TransactionHeaders_ToUsers" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="LocalDatabaseModel.Card" Width="1.5" PointX="3.625" PointY="2.875" />
+        <EntityTypeShape EntityType="LocalDatabaseModel.Cart" Width="1.5" PointX="0.875" PointY="3.125" />
+        <EntityTypeShape EntityType="LocalDatabaseModel.TransactionDetail" Width="1.5" PointX="6.375" PointY="6.375" />
+        <EntityTypeShape EntityType="LocalDatabaseModel.TransactionHeader" Width="1.5" PointX="3.625" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LocalDatabaseModel.User" Width="1.5" PointX="0.875" PointY="6" />
+        <AssociationConnector Association="LocalDatabaseModel.FK_Carts_ToCards" />
+        <AssociationConnector Association="LocalDatabaseModel.FK_TransactionDetails_ToCards" />
+        <AssociationConnector Association="LocalDatabaseModel.FK_Carts_ToUsers" />
+        <AssociationConnector Association="LocalDatabaseModel.FK_TransactionDetails_ToTransactionHeaders" />
+        <AssociationConnector Association="LocalDatabaseModel.FK_TransactionHeaders_ToUsers" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
