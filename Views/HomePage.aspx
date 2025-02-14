@@ -3,7 +3,7 @@
     <link href="..\Styles\HomePageStyle.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div id="content">
+    <div class="main-container">
         <h1>
             <asp:Label ID="WelcomeLabel" runat="server" Text=""></asp:Label>
         </h1>

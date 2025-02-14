@@ -37,5 +37,10 @@ namespace LOrd_Card_Shop.Repositories
 
             return cart;
         }
+
+        public static List<Cart> GetCartsByUserId(int userId)
+        {
+            return db.Carts.Where(c => c.UserID.Equals(userId)).ToList();
+        }
     }
 }

@@ -89,10 +89,14 @@
       <DependentUpon>DatabaseModel.edmx</DependentUpon>
       <LastGenOutput>DatabaseModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Styles\CardDetailsPageStyle.css" />
+    <Content Include="Styles\CartPageStyle.css" />
     <Content Include="Styles\HomePageStyle.css" />
     <Content Include="Styles\NavigationBarStyle.css" />
+    <Content Include="Styles\OrderCardPageStyle.css" />
     <Content Include="Views\CardDetailPage.aspx" />
     <Content Include="Views\CartPage.aspx" />
+    <Content Include="Views\CheckOutPage.aspx" />
     <Content Include="Views\HomePage.aspx" />
     <Content Include="Views\LoginPage.aspx" />
     <Content Include="Views\OrderCardPage.aspx" />
@@ -145,6 +149,7 @@
     <Compile Include="Models\User.cs">
       <DependentUpon>DatabaseModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Modules\CartCardDataObject.cs" />
     <Compile Include="Modules\Response.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\CardRepository.cs" />
@@ -164,6 +169,13 @@
     </Compile>
     <Compile Include="Views\CartPage.aspx.designer.cs">
       <DependentUpon>CartPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CheckOutPage.aspx.cs">
+      <DependentUpon>CheckOutPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\CheckOutPage.aspx.designer.cs">
+      <DependentUpon>CheckOutPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>

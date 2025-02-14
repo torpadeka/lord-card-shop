@@ -14,5 +14,10 @@ namespace LOrd_Card_Shop.Controllers
         {
             return CardHandler.GetAllCards();
         }
+
+        public static Response<Card> GetCardById(int cardId)
+        {
+            return CardHandler.GetCardById(cardId);
+        }
     }
 }

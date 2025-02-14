@@ -12,7 +12,7 @@ namespace LOrd_Card_Shop.Views
 {
     public partial class HomePage : System.Web.UI.Page
     {
-        User currentUser = null;
+        private User currentUser = null;
 
         protected void Page_Load(object sender, EventArgs e)
         {

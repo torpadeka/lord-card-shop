@@ -21,5 +21,17 @@ namespace LOrd_Card_Shop.Handlers
                 Payload = cards
             };
         }
+
+        public static Response<Card> GetCardById(int cardId)
+        {
+            Card card = CardRepository.GetCardById(cardId);
+
+            return new Response<Card>()
+            {
+                Success = true,
+                Message = "Card successfully fetched!",
+                Payload = card
+            };
+        }
     }
 }

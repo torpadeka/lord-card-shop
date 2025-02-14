@@ -12,10 +12,18 @@ namespace LOrd_Card_Shop.Views
 {
 	public partial class CardDetailPage : System.Web.UI.Page
 	{
-        User currentUser = null;
+        private User currentUser = null;
+        public int cardId = 0;
+        public Card card = null;
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack) //check if the webpage is loaded for the first time.
+            {
+                ViewState["PreviousPage"] =
+                Request.UrlReferrer;
+            }
+
             // Middleware for authentication
 
             if (Session["user"] == null && Request.Cookies["user_cookie"] == null)
@@ -53,6 +61,37 @@ namespace LOrd_Card_Shop.Views
             {
                 Response.Redirect("~/View/HomePage.aspx");
             }
+
+            cardId = Convert.ToInt32(Request.QueryString["cardId"]);
+
+            if (cardId.Equals(""))
+            {
+                Response.Redirect("~/View/HomePage.aspx");
+            }
+
+            Response<Card> cardResponse = CardController.GetCardById(cardId);
+
+            if (cardResponse.Success)
+            {
+                card = cardResponse.Payload;
+
+                CardIDLabel.Text = card.CardID.ToString();
+                CardNameLabel.Text = card.CardName;
+                CardPriceLabel.Text = card.CardPrice.ToString();
+                CardDescriptionLabel.Text = card.CardDesc;
+                CardTypeLabel.Text = card.CardType;
+                CardIsFoilLabel.Text = BitConverter.ToBoolean(card.isFoil, 0) ? "Yes" : "No";
+            }
+            else
+            {
+                ErrorLabel.ForeColor = System.Drawing.Color.Red;
+                ErrorLabel.Text = "Something went horrendously wrong!";
+            }
+        }
+
+        protected void BackButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

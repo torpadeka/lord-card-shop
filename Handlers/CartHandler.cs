@@ -33,7 +33,7 @@ namespace LOrd_Card_Shop.Handlers
                 Cart cart = CartFactory.Create(GenerateCartId(), cardId, userId, 1);
                 CartRepository.InsertCart(cart);
 
-                return new Response<Cart>
+                return new Response<Cart>()
                 {
                     Success = true,
                     Message = "Card added to new cart successfully!",
@@ -43,11 +43,41 @@ namespace LOrd_Card_Shop.Handlers
 
             Cart updatedCart = CartRepository.AddCartQuantity(existingCart.CartID);
 
-            return new Response<Cart>
+            return new Response<Cart>()
             {
                 Success = true,
                 Message = "The quantity of an existing cart with this card has been added!",
                 Payload = updatedCart
+            };
+        }
+
+        public static Response<List<CartCardDataObject>> GetCartsAndCardsByUserId(int userId)
+        {
+            List<Cart> carts = CartRepository.GetCartsByUserId(userId);
+
+            List<Card> cards = new List<Card>();
+
+            foreach(Cart c in carts)
+            {
+                cards.Add(CardRepository.GetCardById(c.CardID));
+            }
+
+            List<CartCardDataObject> cartCards = (from cart in carts
+                                                 join card in cards
+                                                 on cart.CardID equals card.CardID
+                                                 select new CartCardDataObject
+                                                 {
+                                                     CardID = card.CardID,
+                                                     CardName = card.CardName,
+                                                     CardPrice = card.CardPrice,
+                                                     Quantity = cart.Quantity
+                                                 }).ToList();
+
+            return new Response<List<CartCardDataObject>>()
+            {
+                Success = true,
+                Message = "Carts with corresponding cards fetched successfully!",
+                Payload = cartCards
             };
         }
     }

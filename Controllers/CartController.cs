@@ -14,5 +14,10 @@ namespace LOrd_Card_Shop.Controllers
         {
             return CartHandler.AddCardToCart(cardId, userId);
         }
+
+        public static Response<List<CartCardDataObject>> GetCartsAndCardsByUserId(int userId)
+        {
+            return CartHandler.GetCartsAndCardsByUserId(userId);
+        }
     }
 }

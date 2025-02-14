@@ -12,7 +12,7 @@ namespace LOrd_Card_Shop.Views
 {
 	public partial class OrderCardPage : System.Web.UI.Page
 	{
-        User currentUser = null;
+        private User currentUser = null;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -69,15 +69,15 @@ namespace LOrd_Card_Shop.Views
 
         protected void CardsGridView_RowCommand(object sender, GridViewCommandEventArgs e)
         {
-            if(e.CommandName == "SeeDetails")
+            if(e.CommandName.Equals("SeeDetails"))
             {
                 GridViewRow row = CardsGridView.Rows[Convert.ToInt32(e.CommandArgument)];
                 String cardId = row.Cells[0].Text;
 
-                Response.Redirect("~/Views/CardDetailPage.aspx?Id=" + cardId);
+                Response.Redirect("~/Views/CardDetailPage.aspx?cardId=" + cardId);
             }
 
-            if(e.CommandName == "AddToCart")
+            if(e.CommandName.Equals("AddToCart"))
             {
                 GridViewRow row = CardsGridView.Rows[Convert.ToInt32(e.CommandArgument)];
                 String cardId = row.Cells[0].Text;
