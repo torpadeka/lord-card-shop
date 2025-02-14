@@ -26,7 +26,7 @@ namespace LOrd_Card_Shop.Views
 
         protected void LoginButton_Click(object sender, EventArgs e)
         {
-            ErrorLabel.ForeColor = System.Drawing.Color.Red;
+            MessageLabel.ForeColor = System.Drawing.Color.Red;
 
             String userName = UsernameTextBox.Text;
             String userPassword = PasswordTextBox.Text;
@@ -36,14 +36,14 @@ namespace LOrd_Card_Shop.Views
 
             if (!response.Success)
             {
-                ErrorLabel.ForeColor = System.Drawing.Color.Red;
-                ErrorLabel.Text = response.Message;
+                MessageLabel.ForeColor = System.Drawing.Color.Red;
+                MessageLabel.Text = response.Message;
                 return;
             }
             else
             {
-                ErrorLabel.ForeColor = System.Drawing.Color.Green;
-                ErrorLabel.Text = response.Message;
+                MessageLabel.ForeColor = System.Drawing.Color.Green;
+                MessageLabel.Text = response.Message;
             }
 
             if (rememberMe)

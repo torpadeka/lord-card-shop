@@ -37,7 +37,7 @@
         </div>
         <br />
         <div>
-            <asp:Label ID="ErrorLabel" runat="server" Text=""></asp:Label>
+            <asp:Label ID="MessageLabel" runat="server" Text=""></asp:Label>
         </div>
         <br />
         <div>

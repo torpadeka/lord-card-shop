@@ -16,8 +16,12 @@
                 </Columns>
             </asp:GridView>
         </div>
-        <div>
+        <div class="button-container">
             <asp:Button CssClass="button" ID="CheckoutButton" runat="server" Text="Checkout" OnClick="CheckoutButton_Click" />
+            <asp:Button CssClass="button" ID="ClearCartButton" runat="server" Text="Clear Cart" OnClick="ClearCartButton_Click" />
+        </div>
+        <div>
+            <asp:Label ID="MessageLabel" runat="server" Text=""></asp:Label>
         </div>
     </div>
 </asp:Content>

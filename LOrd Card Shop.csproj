@@ -91,6 +91,7 @@
     </Content>
     <Content Include="Styles\CardDetailsPageStyle.css" />
     <Content Include="Styles\CartPageStyle.css" />
+    <Content Include="Styles\CheckOutPageStyle.css" />
     <Content Include="Styles\HomePageStyle.css" />
     <Content Include="Styles\NavigationBarStyle.css" />
     <Content Include="Styles\OrderCardPageStyle.css" />
@@ -106,11 +107,15 @@
   <ItemGroup>
     <Compile Include="Controllers\CardController.cs" />
     <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\TransactionController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Factories\CartFactory.cs" />
+    <Compile Include="Factories\TransactionDetailFactory.cs" />
+    <Compile Include="Factories\TransactionHeaderFactory.cs" />
     <Compile Include="Factories\UserFactory.cs" />
     <Compile Include="Handlers\CardHandler.cs" />
     <Compile Include="Handlers\CartHandler.cs" />
+    <Compile Include="Handlers\TransactionHandler.cs" />
     <Compile Include="Handlers\UserHandler.cs" />
     <Compile Include="Layouts\NavigationBar.Master.cs">
       <DependentUpon>NavigationBar.Master</DependentUpon>
@@ -155,6 +160,8 @@
     <Compile Include="Repositories\CardRepository.cs" />
     <Compile Include="Repositories\CartRepository.cs" />
     <Compile Include="Repositories\DatabaseSingleton.cs" />
+    <Compile Include="Repositories\TransactionDetailRepository.cs" />
+    <Compile Include="Repositories\TransactionHeaderRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Views\CardDetailPage.aspx.cs">
       <DependentUpon>CardDetailPage.aspx</DependentUpon>

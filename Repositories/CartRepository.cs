@@ -42,5 +42,15 @@ namespace LOrd_Card_Shop.Repositories
         {
             return db.Carts.Where(c => c.UserID.Equals(userId)).ToList();
         }
+
+        public static List<Cart> DeleteCartsByUserId(int userId)
+        {
+            List<Cart> carts = db.Carts.Where(c => c.UserID.Equals(userId)).ToList();
+
+            List<Cart> deletedCarts = db.Carts.RemoveRange(carts).ToList();
+            db.SaveChanges();
+
+            return deletedCarts;
+        }
     }
 }

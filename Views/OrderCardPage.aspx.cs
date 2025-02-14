@@ -61,10 +61,20 @@ namespace LOrd_Card_Shop.Views
         {
             Response<List<Card>> response = CardController.GetAllCards();
 
-            List<Card> cards = response.Payload;
+            if (response.Success)
+            {
+                List<Card> cards = response.Payload;
 
-            CardsGridView.DataSource = cards;
-            CardsGridView.DataBind();
+                CardsGridView.DataSource = cards;
+                CardsGridView.DataBind();
+            }
+            else
+            {
+                MessageLabel.ForeColor = System.Drawing.Color.Red;
+                MessageLabel.Text = "Something just went sooooooo wrong!";
+            }
+
+            return;
         }
 
         protected void CardsGridView_RowCommand(object sender, GridViewCommandEventArgs e)

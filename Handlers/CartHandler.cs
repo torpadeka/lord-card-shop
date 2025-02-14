@@ -80,5 +80,17 @@ namespace LOrd_Card_Shop.Handlers
                 Payload = cartCards
             };
         }
+
+        public static Response<List<Cart>> ClearUserCart(int userId)
+        {
+            List<Cart> carts = CartRepository.DeleteCartsByUserId(userId);
+
+            return new Response<List<Cart>>()
+            {
+                Success = true,
+                Message = "Cleared user's cart successfully!",
+                Payload = carts
+            };
+        }
     }
 }

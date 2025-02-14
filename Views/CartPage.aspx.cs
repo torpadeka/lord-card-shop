@@ -62,10 +62,29 @@ namespace LOrd_Card_Shop.Views
         {
             Response<List<CartCardDataObject>> response = CartController.GetCartsAndCardsByUserId(currentUser.UserID);
 
-            List<CartCardDataObject> cartCards = response.Payload;
+            if (response.Success)
+            {
+                List<CartCardDataObject> cartCards = response.Payload;
 
-            CartsGridView.DataSource = cartCards;
-            CartsGridView.DataBind();
+                if (cartCards.Count == 0)
+                {
+                    CartsGridView.Visible = false;
+                    MessageLabel.ForeColor = System.Drawing.Color.OrangeRed;
+                    MessageLabel.Text = "Your cart is empty :')";
+
+                    return;
+                }
+
+                CartsGridView.DataSource = cartCards;
+                CartsGridView.DataBind();
+            }
+            else
+            {
+                MessageLabel.ForeColor = System.Drawing.Color.Red;
+                MessageLabel.Text = "Something just went sooooooo wrong!";
+            }
+
+            return;
         }
 
         protected void CartsGridView_RowCommand(object sender, GridViewCommandEventArgs e)
@@ -82,6 +101,24 @@ namespace LOrd_Card_Shop.Views
         protected void CheckoutButton_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/Views/CheckOutPage.aspx");
+        }
+
+        protected void ClearCartButton_Click(object sender, EventArgs e)
+        {
+            Response<List<Cart>> response = CartController.ClearUserCart(currentUser.UserID);
+
+            RefreshGridView();
+
+            if (response.Success)
+            {
+                MessageLabel.ForeColor = System.Drawing.Color.Green;
+                MessageLabel.Text = "Your cart was cleared!";
+            }
+            else
+            {
+                MessageLabel.ForeColor = System.Drawing.Color.Red;
+                MessageLabel.Text = "Something has went ludicrously wrong!";
+            }
         }
     }
 }

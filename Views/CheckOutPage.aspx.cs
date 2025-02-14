@@ -53,6 +53,62 @@ namespace LOrd_Card_Shop.Views
             {
                 Response.Redirect("~/View/HomePage.aspx");
             }
+
+            RefreshGridView();
+        }
+
+        private void RefreshGridView()
+        {
+            Response<List<CartCardDataObject>> response = CartController.GetCartsAndCardsByUserId(currentUser.UserID);
+
+            List<CartCardDataObject> cartCards = response.Payload;
+
+            if (cartCards.Count == 0)
+            {
+                Response.Redirect("~/Views/CartPage.aspx");
+            }
+
+            CheckoutGridView.DataSource = cartCards;
+            CheckoutGridView.DataBind();
+
+            return;
+        }
+
+        protected void ProceedWithCheckoutButton_Click(object sender, EventArgs e)
+        {
+            Response<List<CartCardDataObject>> userCartCardsResponse = CartController.GetCartsAndCardsByUserId(currentUser.UserID);
+
+            if (userCartCardsResponse.Success)
+            {
+                List<CartCardDataObject> cartCards = userCartCardsResponse.Payload;
+
+                Response<TransactionHeader> thResponse = TransactionController.CreateTransactionHeader(currentUser.UserID);
+                TransactionHeader th = thResponse.Payload;
+
+                foreach (CartCardDataObject cc in cartCards)
+                {
+                    TransactionController.CreateTransactionDetail(th.TransactionID, cc.CardID, cc.Quantity);
+                }
+
+                CartController.ClearUserCart(currentUser.UserID);
+
+                CheckoutGridView.Visible = false;
+
+                MessageLabel.ForeColor = System.Drawing.Color.Green;
+                MessageLabel.Text = "Checkout done! Transaction has been created!";
+
+                ViewTransactionHistoryButton.Visible = true;
+            }
+            else
+            {
+                MessageLabel.ForeColor = System.Drawing.Color.Red;
+                MessageLabel.Text = "Something has went unbelievably wrong!";
+            }
+        }
+
+        protected void ViewTransactionHistoryButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Views/TransactionHistoryPage.aspx");
         }
     }
 }
