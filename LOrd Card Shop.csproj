@@ -214,6 +214,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Layouts\NavigationBar.Master" />
     <EntityDeploy Include="Models\DatabaseModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>DatabaseModel.Designer.cs</LastGenOutput>
@@ -221,7 +222,6 @@
     <Content Include="Models\DatabaseModel.edmx.diagram">
       <DependentUpon>DatabaseModel.edmx</DependentUpon>
     </Content>
-    <Content Include="Layouts\NavigationBar.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

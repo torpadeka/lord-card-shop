@@ -93,6 +93,7 @@ namespace LOrd_Card_Shop.Views
                 CartController.ClearUserCart(currentUser.UserID);
 
                 CheckoutGridView.Visible = false;
+                ProceedWithCheckoutButton.Visible = false;
 
                 MessageLabel.ForeColor = System.Drawing.Color.Green;
                 MessageLabel.Text = "Checkout done! Transaction has been created!";

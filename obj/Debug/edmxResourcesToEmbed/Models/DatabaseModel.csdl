@@ -27,6 +27,7 @@
   <EntityType Name="TransactionDetail">
     <Key>
       <PropertyRef Name="TransactionID" />
+      <PropertyRef Name="CardID" />
     </Key>
     <Property Name="TransactionID" Type="Int32" Nullable="false" />
     <Property Name="CardID" Type="Int32" Nullable="false" />
@@ -42,7 +43,7 @@
     <Property Name="TransactionDate" Type="DateTime" Nullable="false" Precision="0" />
     <Property Name="CustomerID" Type="Int32" Nullable="false" />
     <Property Name="Status" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
-    <NavigationProperty Name="TransactionDetail" Relationship="Self.FK_TransactionDetails_ToTransactionHeaders" FromRole="TransactionHeaders" ToRole="TransactionDetails" />
+    <NavigationProperty Name="TransactionDetails" Relationship="Self.FK_TransactionDetails_ToTransactionHeaders" FromRole="TransactionHeaders" ToRole="TransactionDetails" />
     <NavigationProperty Name="User" Relationship="Self.FK_TransactionHeaders_ToUsers" FromRole="TransactionHeaders" ToRole="Users" />
   </EntityType>
   <EntityType Name="User">
@@ -97,7 +98,7 @@
   </Association>
   <Association Name="FK_TransactionDetails_ToTransactionHeaders">
     <End Role="TransactionHeaders" Type="Self.TransactionHeader" Multiplicity="1" />
-    <End Role="TransactionDetails" Type="Self.TransactionDetail" Multiplicity="0..1" />
+    <End Role="TransactionDetails" Type="Self.TransactionDetail" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="TransactionHeaders">
         <PropertyRef Name="TransactionID" />

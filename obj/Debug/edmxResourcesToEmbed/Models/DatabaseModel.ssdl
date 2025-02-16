@@ -23,6 +23,7 @@
   <EntityType Name="TransactionDetails">
     <Key>
       <PropertyRef Name="TransactionID" />
+      <PropertyRef Name="CardID" />
     </Key>
     <Property Name="TransactionID" Type="int" Nullable="false" />
     <Property Name="CardID" Type="int" Nullable="false" />
@@ -87,7 +88,7 @@
   </Association>
   <Association Name="FK_TransactionDetails_ToTransactionHeaders">
     <End Role="TransactionHeaders" Type="Self.TransactionHeaders" Multiplicity="1" />
-    <End Role="TransactionDetails" Type="Self.TransactionDetails" Multiplicity="0..1" />
+    <End Role="TransactionDetails" Type="Self.TransactionDetails" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="TransactionHeaders">
         <PropertyRef Name="TransactionID" />
