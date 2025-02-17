@@ -16,14 +16,10 @@ namespace LOrd_Card_Shop.Views
         public int cardId = 0;
         public Card card = null;
 
+        public String prevPage = "";
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack) //check if the webpage is loaded for the first time.
-            {
-                ViewState["PreviousPage"] =
-                Request.UrlReferrer;
-            }
-
             // Middleware for authentication
 
             if (Session["user"] == null && Request.Cookies["user_cookie"] == null)
@@ -63,6 +59,7 @@ namespace LOrd_Card_Shop.Views
             }
 
             cardId = Convert.ToInt32(Request.QueryString["cardId"]);
+            prevPage = Request.QueryString["fromPage"];
 
             if (cardId.Equals(""))
             {
@@ -87,11 +84,36 @@ namespace LOrd_Card_Shop.Views
                 ErrorLabel.ForeColor = System.Drawing.Color.Red;
                 ErrorLabel.Text = "Something went horrendously wrong!";
             }
+
+            if (prevPage.Equals("") || prevPage.Equals("OrderCard"))
+            {
+                BackButton.Text = "Back to Order Card";
+            }
+            else if (prevPage.Equals("Cart"))
+            {
+                BackButton.Text = "Back to Cart";
+            }
+            else if (prevPage.Equals("TransactionDetail"))
+            {
+                BackButton.Text = "Back to Transaction Detail";
+            }
         }
 
         protected void BackButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Views/OrderCardPage.aspx");
+            if (prevPage.Equals("") || prevPage.Equals("OrderCard"))
+            {
+                Response.Redirect("~/Views/OrderCardPage.aspx");
+            }
+            else if (prevPage.Equals("Cart"))
+            {
+                Response.Redirect("~/Views/CartPage.aspx");
+            }
+            else if (prevPage.Equals("TransactionDetail"))
+            {
+                String transactionId = Request.QueryString["transactionId"];
+                Response.Redirect("~/Views/TransactionDetailPage.aspx?transactionId=" + transactionId);
+            }
         }
     }
 }

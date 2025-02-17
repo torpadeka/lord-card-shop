@@ -1,25 +1,137 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TORPADEKA\\source\\repos\\lord-card-shop\\",
+  "WorkspaceRootPath": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\TORPADEKA\\source\\repos\\lord-card-shop\\views\\checkoutpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\hendri leong\\source\\repos\\lord-card-shop\\views\\transactiondetailpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\transactiondetailpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\hendri leong\\source\\repos\\lord-card-shop\\views\\transactiondetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\transactiondetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\views\\carddetailpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\carddetailpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\views\\transactionhistorypage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\transactionhistorypage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\views\\checkoutpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\checkoutpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\views\\carddetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\carddetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\views\\cartpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\cartpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\hendri leong\\source\\repos\\lord-card-shop\\views\\ordercardpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\ordercardpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\hendri leong\\source\\repos\\lord-card-shop\\views\\ordercardpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\ordercardpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_HENDRI_LEONG_SOURCE_REPOS_LORD_CARD_SHOP_APP_DATA_LOCALDATABASE.MDF/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\views\\transactionhistorypage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\transactionhistorypage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\hendri leong\\source\\repos\\lord-card-shop\\views\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\layouts\\navigationbar.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:layouts\\navigationbar.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\layouts\\navigationbar.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:layouts\\navigationbar.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\hendri leong\\source\\repos\\lord-card-shop\\views\\transactiondetailpage.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\transactiondetailpage.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\hendri leong\\source\\repos\\lord-card-shop\\views\\cartpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\cartpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\handlers\\transactionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:handlers\\transactionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\hendri leong\\source\\repos\\lord-card-shop\\handlers\\carthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:handlers\\carthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\hendri leong\\source\\repos\\lord-card-shop\\modules\\transactioncarddataobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:modules\\transactioncarddataobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\hendri leong\\source\\repos\\lord-card-shop\\modules\\cartcarddataobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:modules\\cartcarddataobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\repositories\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:repositories\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\hendri leong\\source\\repos\\lord-card-shop\\views\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\hendri leong\\source\\repos\\lord-card-shop\\repositories\\transactiondetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:repositories\\transactiondetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\repositories\\transactionheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:repositories\\transactionheaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\hendri leong\\source\\repos\\lord-card-shop\\handlers\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:handlers\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\views\\checkoutpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\checkoutpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\TORPADEKA\\source\\repos\\lord-card-shop\\models\\databasemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\views\\cartpage.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\cartpage.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\models\\databasemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:models\\databasemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|c:\\users\\torpadeka\\source\\repos\\lord-card-shop\\handlers\\cardhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\handlers\\cardhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:handlers\\cardhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_TORPADEKA_SOURCE_REPOS_LORD_CARD_SHOP_APP_DATA_LOCALDATABASE.MDF/True/SqlTable/dbo.TransactionDetails.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|C:\\Users\\TORPADEKA\\source\\repos\\lord-card-shop\\views\\carddetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D736A4EA-21DA-444C-8C22-148DC1C16107}|LOrd Card Shop.csproj|solutionrelative:views\\carddetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,45 +141,367 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CardHandler.cs",
-              "DocumentMoniker": "C:\\Users\\TORPADEKA\\source\\repos\\lord-card-shop\\Handlers\\CardHandler.cs",
-              "RelativeDocumentMoniker": "Handlers\\CardHandler.cs",
-              "ToolTip": "C:\\Users\\TORPADEKA\\source\\repos\\lord-card-shop\\Handlers\\CardHandler.cs",
-              "RelativeToolTip": "Handlers\\CardHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TransactionDetailPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\TransactionDetailPage.aspx.cs",
+              "RelativeDocumentMoniker": "Views\\TransactionDetailPage.aspx.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\TransactionDetailPage.aspx.cs",
+              "RelativeToolTip": "Views\\TransactionDetailPage.aspx.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAnwH4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T14:22:55.037Z",
+              "WhenOpened": "2025-02-17T05:08:06.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CardDetailPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\CardDetailPage.aspx.cs",
+              "RelativeDocumentMoniker": "Views\\CardDetailPage.aspx.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\CardDetailPage.aspx.cs",
+              "RelativeToolTip": "Views\\CardDetailPage.aspx.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAUwHQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T03:02:43.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "dbo.TransactionDetails.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_TORPADEKA_SOURCE_REPOS_LORD_CARD_SHOP_APP_DATA_LOCALDATABASE.MDF/True/SqlTable/dbo.TransactionDetails.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_TORPADEKA_SOURCE_REPOS_LORD_CARD_SHOP_APP_DATA_LOCALDATABASE.MDF/True/SqlTable/dbo.TransactionDetails.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-02-16T14:22:02.848Z"
+              "Title": "TransactionHistoryPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\TransactionHistoryPage.aspx.cs",
+              "RelativeDocumentMoniker": "Views\\TransactionHistoryPage.aspx.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\TransactionHistoryPage.aspx.cs",
+              "RelativeToolTip": "Views\\TransactionHistoryPage.aspx.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwEEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T02:46:22.596Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "TransactionDetailPage.aspx",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\TransactionDetailPage.aspx",
+              "RelativeDocumentMoniker": "Views\\TransactionDetailPage.aspx",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\TransactionDetailPage.aspx",
+              "RelativeToolTip": "Views\\TransactionDetailPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-17T05:07:48.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CheckOutPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\CheckOutPage.aspx.cs",
+              "RelativeDocumentMoniker": "Views\\CheckOutPage.aspx.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\CheckOutPage.aspx.cs",
+              "RelativeToolTip": "Views\\CheckOutPage.aspx.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T02:29:25.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CardDetailPage.aspx",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\CardDetailPage.aspx",
+              "RelativeDocumentMoniker": "Views\\CardDetailPage.aspx",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\CardDetailPage.aspx",
+              "RelativeToolTip": "Views\\CardDetailPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-16T14:20:36.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\CartPage.aspx.cs",
+              "RelativeDocumentMoniker": "Views\\CartPage.aspx.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\CartPage.aspx.cs",
+              "RelativeToolTip": "Views\\CartPage.aspx.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAswGQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T02:29:47.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderCardPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\OrderCardPage.aspx.cs",
+              "RelativeDocumentMoniker": "Views\\OrderCardPage.aspx.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\OrderCardPage.aspx.cs",
+              "RelativeToolTip": "Views\\OrderCardPage.aspx.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwFkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T05:37:10.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderCardPage.aspx",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\OrderCardPage.aspx",
+              "RelativeDocumentMoniker": "Views\\OrderCardPage.aspx",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\OrderCardPage.aspx",
+              "RelativeToolTip": "Views\\OrderCardPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-17T04:33:12.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_HENDRI_LEONG_SOURCE_REPOS_LORD_CARD_SHOP_APP_DATA_LOCALDATABASE.MDF/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-17T05:34:04.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TransactionHistoryPage.aspx",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\TransactionHistoryPage.aspx",
+              "RelativeDocumentMoniker": "Views\\TransactionHistoryPage.aspx",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\TransactionHistoryPage.aspx",
+              "RelativeToolTip": "Views\\TransactionHistoryPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-17T02:46:09.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterPage.aspx",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\RegisterPage.aspx",
+              "RelativeDocumentMoniker": "Views\\RegisterPage.aspx",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\RegisterPage.aspx",
+              "RelativeToolTip": "Views\\RegisterPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-17T05:33:27.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavigationBar.Master.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Layouts\\NavigationBar.Master.cs",
+              "RelativeDocumentMoniker": "Layouts\\NavigationBar.Master.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Layouts\\NavigationBar.Master.cs",
+              "RelativeToolTip": "Layouts\\NavigationBar.Master.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T02:30:34.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NavigationBar.Master",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Layouts\\NavigationBar.Master",
+              "RelativeDocumentMoniker": "Layouts\\NavigationBar.Master",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Layouts\\NavigationBar.Master",
+              "RelativeToolTip": "Layouts\\NavigationBar.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-17T02:30:33.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TransactionDetailPage.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\TransactionDetailPage.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Views\\TransactionDetailPage.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\TransactionDetailPage.aspx.designer.cs",
+              "RelativeToolTip": "Views\\TransactionDetailPage.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T05:10:30.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CartPage.aspx",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\CartPage.aspx",
+              "RelativeDocumentMoniker": "Views\\CartPage.aspx",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\CartPage.aspx",
+              "RelativeToolTip": "Views\\CartPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-17T04:33:45.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Repositories\\CartRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CartRepository.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Repositories\\CartRepository.cs",
+              "RelativeToolTip": "Repositories\\CartRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T02:30:48.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TransactionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Handlers\\TransactionHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\TransactionHandler.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Handlers\\TransactionHandler.cs",
+              "RelativeToolTip": "Handlers\\TransactionHandler.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAowHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T02:37:18.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwC4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T02:36:14.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CartHandler.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Handlers\\CartHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\CartHandler.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Handlers\\CartHandler.cs",
+              "RelativeToolTip": "Handlers\\CartHandler.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowE8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T04:52:06.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TransactionCardDataObject.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Modules\\TransactionCardDataObject.cs",
+              "RelativeDocumentMoniker": "Modules\\TransactionCardDataObject.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Modules\\TransactionCardDataObject.cs",
+              "RelativeToolTip": "Modules\\TransactionCardDataObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T04:52:58.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CartCardDataObject.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Modules\\CartCardDataObject.cs",
+              "RelativeDocumentMoniker": "Modules\\CartCardDataObject.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Modules\\CartCardDataObject.cs",
+              "RelativeToolTip": "Modules\\CartCardDataObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T04:45:36.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Repositories\\CardRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CardRepository.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Repositories\\CardRepository.cs",
+              "RelativeToolTip": "Repositories\\CardRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T02:30:47.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RegisterPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\RegisterPage.aspx.cs",
+              "RelativeDocumentMoniker": "Views\\RegisterPage.aspx.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\RegisterPage.aspx.cs",
+              "RelativeToolTip": "Views\\RegisterPage.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T04:23:37.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TransactionDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Repositories\\TransactionDetailRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TransactionDetailRepository.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Repositories\\TransactionDetailRepository.cs",
+              "RelativeToolTip": "Repositories\\TransactionDetailRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T04:39:08.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TransactionHeaderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Repositories\\TransactionHeaderRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TransactionHeaderRepository.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Repositories\\TransactionHeaderRepository.cs",
+              "RelativeToolTip": "Repositories\\TransactionHeaderRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T02:37:44.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Handlers\\UserHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\UserHandler.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Handlers\\UserHandler.cs",
+              "RelativeToolTip": "Handlers\\UserHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T04:36:48.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "CheckOutPage.aspx",
-              "DocumentMoniker": "C:\\Users\\TORPADEKA\\source\\repos\\lord-card-shop\\Views\\CheckOutPage.aspx",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\CheckOutPage.aspx",
               "RelativeDocumentMoniker": "Views\\CheckOutPage.aspx",
-              "ToolTip": "C:\\Users\\TORPADEKA\\source\\repos\\lord-card-shop\\Views\\CheckOutPage.aspx",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\CheckOutPage.aspx",
               "RelativeToolTip": "Views\\CheckOutPage.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -76,23 +510,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CardDetailPage.aspx",
-              "DocumentMoniker": "C:\\Users\\TORPADEKA\\source\\repos\\lord-card-shop\\Views\\CardDetailPage.aspx",
-              "RelativeDocumentMoniker": "Views\\CardDetailPage.aspx",
-              "ToolTip": "C:\\Users\\TORPADEKA\\source\\repos\\lord-card-shop\\Views\\CardDetailPage.aspx",
-              "RelativeToolTip": "Views\\CardDetailPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-16T14:20:36.334Z"
+              "DocumentIndex": 28,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-17T02:54:54.755Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 29,
+              "Title": "CartPage.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\CartPage.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Views\\CartPage.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Views\\CartPage.aspx.designer.cs",
+              "RelativeToolTip": "Views\\CartPage.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T02:43:53.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T02:38:16.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CardHandler.cs",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Handlers\\CardHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\CardHandler.cs",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Handlers\\CardHandler.cs",
+              "RelativeToolTip": "Handlers\\CardHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T14:22:55.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "DatabaseModel.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\TORPADEKA\\source\\repos\\lord-card-shop\\Models\\DatabaseModel.edmx",
+              "DocumentMoniker": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Models\\DatabaseModel.edmx",
               "RelativeDocumentMoniker": "Models\\DatabaseModel.edmx",
-              "ToolTip": "C:\\Users\\TORPADEKA\\source\\repos\\lord-card-shop\\Models\\DatabaseModel.edmx [Diagram1]",
+              "ToolTip": "C:\\Users\\HENDRI LEONG\\source\\repos\\lord-card-shop\\Models\\DatabaseModel.edmx [Diagram1]",
               "RelativeToolTip": "Models\\DatabaseModel.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
               "WhenOpened": "2025-02-16T14:18:35.195Z",

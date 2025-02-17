@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.UI.WebControls.WebParts;
 
 namespace LOrd_Card_Shop.Handlers
 {
@@ -48,6 +49,84 @@ namespace LOrd_Card_Shop.Handlers
                 Success = true,
                 Message = "Transaction detail created successfully!",
                 Payload = transactionDetail
+            };
+        }
+
+        public static Response<List<TransactionHeader>> GetTransactionHeadersByUserId(int userId)
+        {
+            List<TransactionHeader> transactionHeaders = TransactionHeaderRepository.GetTransactionHeadersByUserId(userId);
+
+            return new Response<List<TransactionHeader>>()
+            {
+                Success = true,
+                Message = "All transaction headers of this user fetched successfully!",
+                Payload = transactionHeaders
+            };
+        }
+
+        public static Response<List<TransactionHeader>> GetAllTransactionHeaders()
+        {
+            List<TransactionHeader> transactionHeaders = TransactionHeaderRepository.GetAllTransactionHeaders();
+
+            return new Response<List<TransactionHeader>>()
+            {
+                Success = true,
+                Message = "All transaction headers fetched successfully!",
+                Payload = transactionHeaders
+            };
+        }
+
+        public static Response<TransactionHeader> GetTransactionHeaderById(int transactionId)
+        {
+            TransactionHeader transactionHeader = TransactionHeaderRepository.GetTransactionHeaderById(transactionId);
+
+            return new Response<TransactionHeader>()
+            {
+                Success = true,
+                Message = "Transaction header fetched successfully!",
+                Payload = transactionHeader
+            };
+        }
+
+        public static Response<List<TransactionDetail>> GetTransactionDetailsById(int transactionId)
+        {
+            List<TransactionDetail> transactionDetails = TransactionDetailRepository.GetTransactionDetailsById(transactionId);
+
+            return new Response<List<TransactionDetail>>()
+            {
+                Success = true,
+                Message = "Transaction header fetched successfully!",
+                Payload = transactionDetails
+            };
+        }
+
+        public static Response<List<TransactionCardDataObject>> GetTransactionsAndCards(int transactionId)
+        {
+            List<TransactionDetail> transactionDetails = TransactionDetailRepository.GetTransactionDetailsById(transactionId);
+
+            List<Card> cards = new List<Card>();
+
+            foreach (TransactionDetail td in transactionDetails)
+            {
+                cards.Add(CardRepository.GetCardById(td.CardID));
+            }
+
+            List<TransactionCardDataObject> transactionCards = (from td in transactionDetails
+                                                                join card in cards
+                                                                on td.CardID equals card.CardID
+                                                                select new TransactionCardDataObject
+                                                                {
+                                                                    CardID = card.CardID,
+                                                                    CardName = card.CardName,
+                                                                    CardPrice = card.CardPrice,
+                                                                    Quantity = td.Quantity
+                                                                }).ToList();
+
+            return new Response<List<TransactionCardDataObject>>()
+            {
+                Success = true,
+                Message = "Transactions with corresponding cards fetched successfully!",
+                Payload = transactionCards
             };
         }
     }

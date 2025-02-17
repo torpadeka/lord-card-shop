@@ -54,7 +54,10 @@ namespace LOrd_Card_Shop.Views
                 Response.Redirect("~/View/HomePage.aspx");
             }
 
-            RefreshGridView();
+            if (!IsPostBack)
+            {
+                RefreshGridView();
+            }
         }
 
         private void RefreshGridView()

@@ -88,7 +88,7 @@ namespace LOrd_Card_Shop.Layouts
 
         protected void HistoryLinkButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Views/HistoryPage.aspx");
+            Response.Redirect("~/Views/TransactionHistoryPage.aspx");
         }
 
         protected void CartLinkButton_Click(object sender, EventArgs e)

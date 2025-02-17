@@ -94,7 +94,7 @@ namespace LOrd_Card_Shop.Views
                 GridViewRow row = CartsGridView.Rows[Convert.ToInt32(e.CommandArgument)];
                 String cardId = row.Cells[0].Text;
 
-                Response.Redirect("~/Views/CardDetailPage.aspx?cardId=" + cardId);
+                Response.Redirect("~/Views/CardDetailPage.aspx?cardId=" + cardId + "&fromPage=Cart");
             }
         }
 

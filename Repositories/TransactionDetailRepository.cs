@@ -1,4 +1,5 @@
 ﻿using LOrd_Card_Shop.Models;
+using LOrd_Card_Shop.Modules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,11 @@ namespace LOrd_Card_Shop.Repositories
         public static TransactionDetail GetLastTransactionDetail()
         {
             return db.TransactionDetails.ToList().LastOrDefault();
+        }
+
+        public static List<TransactionDetail> GetTransactionDetailsById(int transactionId)
+        {
+            return db.TransactionDetails.Where(td => td.TransactionID.Equals(transactionId)).ToList();
         }
     }
 }

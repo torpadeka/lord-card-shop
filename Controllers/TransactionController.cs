@@ -21,5 +21,30 @@ namespace LOrd_Card_Shop.Controllers
         {
             return TransactionHandler.CreateTransactionDetail(transactionId, cardId, quantity);
         }
+
+        public static Response<List<TransactionHeader>> GetTransactionHeadersByUserId(int userId)
+        {
+            return TransactionHandler.GetTransactionHeadersByUserId(userId);
+        }
+
+        public static Response<List<TransactionHeader>> GetAllTransactionHeaders()
+        {
+            return TransactionHandler.GetAllTransactionHeaders();
+        }
+
+        public static Response<TransactionHeader> GetTransactionHeaderById(int transactionId)
+        {
+            return TransactionHandler.GetTransactionHeaderById(transactionId);
+        }
+
+        public static Response<List<TransactionDetail>> GetTransactionDetailsById(int transactionId)
+        {
+            return TransactionHandler.GetTransactionDetailsById(transactionId);
+        }
+
+        public static Response<List<TransactionCardDataObject>> GetTransactionsAndCards(int transactionId)
+        {
+            return TransactionHandler.GetTransactionsAndCards(transactionId);
+        }
     }
 }
